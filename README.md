@@ -3,3 +3,7 @@
 
 List of Projects done
 1. Simple Traffic Light using Muceeshield
+2.  PWM frequency control for DC-DC buck, boost and buckboost controller
+3.  PWM Dutycycle control for DC-DC buck, boost and buckboost controller
+4.  Encoder change without interrupts
+5.  Real time clock using RTCDS1307 , I2C LCD and Encoder for minute and hour adjustment
