@@ -1,4 +1,4 @@
-from machine import UART
+from machine import UART,Pin
 from time import sleep
 
 # connect the following between ESP32C3 mini and Arduino uno (through a voltage level converter)
@@ -8,9 +8,6 @@ from time import sleep
 #  GND           GND
 #  GPIO 21(tx)   10 (rx in software serial)
 #  GPIO 20(rx)   11 (tx in software serial)
-
-from machine import UART,Pin
-from time import sleep
 
 uart1 = UART(0, baudrate=9600, tx=21, rx=20)
 P0 = Pin(0, Pin.IN,Pin.PULL_UP)     # create input pin on GPIO0
