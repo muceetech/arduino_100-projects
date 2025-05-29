@@ -1,4 +1,12 @@
-
+/*
+# connect the following between ESP32C3 mini and Arduino uno (through a voltage level converter)
+#  for avoiding confusion , Software serial is used in arduino code
+#  ESP32C3_pin   Arduino_pin
+#  5V            5V
+#  GND           GND
+#  GPIO 21(tx)   10 (rx in software serial)
+#  GPIO 20(rx)   11 (tx in software serial)
+*/
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX, TX
