@@ -8,4 +8,5 @@ List of Projects done
 4.  Encoder change without interrupts
 5.  Real time clock using RTCDS1307 , I2C LCD and Encoder for minute and hour adjustment
 6.  Conneting an Arduino Uno to an Wifi module and control an LED from internet (MQTT)
-7.  
+7.  Project using an FS1000A 433 MHz RF Transmitter and receiver module to transmit 4 bits in parallel using timer and receive using PulseIn function in Arduino
+8.  Giving input to Arduino from USB keyboard with USB host shield and displaying the characters in i2c lcd
