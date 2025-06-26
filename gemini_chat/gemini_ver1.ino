@@ -4,11 +4,11 @@
 #include <ArduinoJson.h> // Install this library from Library Manager
 
 // WiFi credentials
-const char* ssid = "Rajnarain";
-const char* password = "narain12";
+const char* ssid = "";
+const char* password = "";
 
 // Gemini API Key
-const char* apiKey = "AIzaSyAuPSFfZub15iyZC8CTf426Tgssw_jLBUo";  // Replace with your actual API key
+const char* apiKey = "";  // Replace with your actual API key
 
 // Gemini API endpoint (replace with the correct one, model may change!)
 const char* geminiEndpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
